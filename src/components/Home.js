@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 class Home extends React.Component {
   render() {
     return (
-      <div className="home">
+      <div className="home text-center">
         <FadeIn delay="700">
           <div className="container peding">
             <div className="mt-4 d-flex justify-content-center">
@@ -18,11 +18,11 @@ class Home extends React.Component {
               ></img>
             </div>
             <div className="mt-4"></div>
-            <h1 className="d-flex justify-content-center">
+            <h1 className="d-flex justify-content-center text-center">
               Amir Bajraktarević
             </h1>
             <div className="mt-4"></div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center ">
               <h3>Web Developer</h3>
             </div>
             <div className="mt-4"></div>
